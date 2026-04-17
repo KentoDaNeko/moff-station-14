@@ -72,3 +72,15 @@
         mask:
         - Impassable
         - BulletImpassable
+
+
+- type: entity
+  name: hyperlaser bolt
+  id: BulletHyperlaser
+  parent: BulletDisabler
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Heat: 999999999

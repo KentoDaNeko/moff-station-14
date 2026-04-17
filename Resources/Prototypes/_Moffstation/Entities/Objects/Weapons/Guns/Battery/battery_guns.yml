@@ -136,3 +136,46 @@
     tags:
     - Sidearm
     - LaserWeapon
+
+
+- type: entity
+  name: Laser Pistol
+  parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
+  id: WeaponHyperlaser
+  description: A laser pistol that originates beyond the universe. Where did you even get this?
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Battery/hyperlaser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-1
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Item
+    storedOffset: -2,-5
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: false
+  - type: Appearance
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Battery/hyperlaser.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
+  - type: BatteryAmmoProvider
+    proto: BulletHyperlaser
+    fireCost: 500
+  - type: BatterySelfRecharger
+    autoRechargeRate: 100
+  - type: Battery
+    maxCharge: 500
+    startingCharge: 500
+  - type: Tag
+    tags:
+    - Sidearm
+    - LaserWeapon
