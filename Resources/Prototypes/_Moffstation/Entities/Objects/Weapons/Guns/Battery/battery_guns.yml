@@ -139,7 +139,7 @@
 
 
 - type: entity
-  name: Laser Pistol
+  name: Hyperlaser
   parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
   id: WeaponHyperlaser
   description: A laser pistol that originates beyond the universe. Where did you even get this?
@@ -156,7 +156,7 @@
     storedOffset: -2,-5
   - type: MagazineVisuals
     magState: mag
-    steps: 1
+    steps: 2
     zeroVisible: false
   - type: Appearance
   - type: Clothing
