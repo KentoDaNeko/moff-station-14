@@ -4418,6 +4418,13 @@ Entries:
   id: 1165
   time: '2026-04-15T21:02:06.000'
   url: https://github.com/moff-station/moff-station-14/pull/1165
+- author: SeaWyrm
+  changes:
+  - message: Added Ossuary, a new lowpop map
+    type: add
+  id: 1168
+  time: '2026-04-26T11:22:46.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1168
 - author: Nyxilath
   changes:
   - message: Jukebox now have volume controls!
@@ -5025,6 +5032,30 @@ Entries:
   id: 1305
   time: '2026-04-23T19:07:13.000'
   url: https://github.com/moff-station/moff-station-14/pull/1305
+- author: Dave
+  changes:
+  - message: new hardsuit & eva suit sprites
+    type: add
+  id: 1306
+  time: '2026-04-26T21:33:23.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1306
+- author: Tortosaur
+  changes:
+  - message: Added the Trico Chicken, make use of that Tricordrazine!
+    type: add
+  id: 1307
+  time: '2026-04-25T17:46:34.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1307
+- author: Tortosaur
+  changes:
+  - message: The ~~Tider's~~ passenger's headset now has an over-ear headset variant.
+    type: add
+  - message: New Syndicate Infiltrator Headset has been added to the uplink. (Coming
+      empty but storing up to 6 keys)
+    type: add
+  id: 1310
+  time: '2026-04-26T19:42:28.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1310
 - author: Centronias
   changes:
   - message: Salvage borg and derelict salvage borg walk speed as been increased to
@@ -5036,6 +5067,22 @@ Entries:
   id: 1312
   time: '2026-04-24T19:00:59.000'
   url: https://github.com/moff-station/moff-station-14/pull/1312
+- author: Centronias
+  changes:
+  - message: Shimmy's, Stella's, and Jibber's personal pistols can now be loaded with
+      15-round high capacity magazines, like the MK58 they're all based on.
+    type: fix
+  id: 1313
+  time: '2026-04-26T18:35:38.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1313
+- author: Centronias
+  changes:
+  - message: Cyborg magboot functionality has been reflavored so as to not suggest
+      cyborgs are literally wearing magboots.
+    type: tweak
+  id: 1316
+  time: '2026-04-27T17:24:39.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1316
 - author: Dave
   changes:
   - message: Bricktile decal se corner fix
@@ -5051,5 +5098,113 @@ Entries:
   id: 1319
   time: '2026-04-24T20:49:58.000'
   url: https://github.com/moff-station/moff-station-14/pull/1319
+- author: nithead10
+  changes:
+  - message: Geras have selected traits now
+    type: fix
+  - message: Geras have passive regen
+    type: fix
+  - message: Geras can pilot shuttles
+    type: fix
+  id: 1320
+  time: '2026-04-25T16:53:29.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1320
+- author: DuckManZach
+  changes:
+  - message: made geras less transparent
+    type: tweak
+  - message: Lessens the transparency on the geras
+    type: tweak
+  - message: Removed faction member from Geras (geras aren't always NT aligned)
+    type: tweak
+  - message: Adjusts Geras melee damage to be on-par with normal slime form
+    type: tweak
+  - message: Give Geras a basic in-hand sprite (currently not colored)
+    type: tweak
+  - message: Increase geras transformation cooldown to 30s
+    type: tweak
+  - message: made geras transform ordered properly in actions
+    type: tweak
+  - message: Geras will now transfer inventory where possible
+    type: tweak
+  - message: Bloodloss stacks now transfer when gerasing
+    type: tweak
+  - message: On fire status now transfers when gerasing
+    type: tweak
+  - message: Stamina damage now transfers when gerasing
+    type: tweak
+  - message: Pending zombification now transfers when gerasing
+    type: tweak
+  id: 1321
+  time: '2026-04-28T20:01:49.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1321
+- author: Tortosaur
+  changes:
+  - message: Sharkminnow Hide, a new crafting material
+    type: add
+  - message: Sharkminnow magboots, a salvage oriented upgrade to the traditional magboots
+    type: add
+  id: 1323
+  time: '2026-04-27T07:57:11.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1323
+- author: StudMuffin
+  changes: []
+  id: 1326
+  time: '2026-04-26T20:32:41.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1326
+- author: DuckManZach
+  changes:
+  - message: readded tourists for real this time
+    type: fix
+  id: 1332
+  time: '2026-04-27T21:59:07.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1332
+- author: Centronias
+  changes:
+  - message: 'Departmental communication consoles'' flatpacks can now be unpacked
+      with the most capable tool of all: hands.'
+    type: tweak
+  id: 1333
+  time: '2026-04-26T22:07:14.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1333
+- author: ScarKy0
+  changes:
+  - message: The AI restoration console, when used on an intellicarded AI, will no
+      longer untether the AI from its material prison.
+    type: fix
+  id: 1334
+  time: '2026-04-26T22:25:32.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1334
+- author: Tortosaur
+  changes: []
+  id: 1337
+  time: '2026-04-27T17:43:31.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1337
+- author: DuckManZach
+  changes:
+  - message: Scream will always come second in the action bar
+    type: tweak
+  id: 1341
+  time: '2026-04-28T00:06:50.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1341
+- author: DuckManZach
+  changes:
+  - message: Removed the "worn" sprite for PDAs
+    type: remove
+  id: 1347
+  time: '2026-04-28T19:43:28.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1347
+- author: SillyAmy
+  changes: []
+  id: 1349
+  time: '2026-04-29T06:14:49.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1349
+- author: Centronias
+  changes:
+  - message: Liquid gasses are no longer for sale from cargo.
+    type: remove
+  id: 1351
+  time: '2026-04-30T16:26:34.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1351
 Name: Mofflog
 Order: -2
