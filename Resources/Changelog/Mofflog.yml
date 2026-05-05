@@ -5180,6 +5180,13 @@ Entries:
   id: 1337
   time: '2026-04-27T17:43:31.000'
   url: https://github.com/moff-station/moff-station-14/pull/1337
+- author: Tortosaur
+  changes:
+  - message: Folding table is here. GET READY TO RRRRUMBLE!
+    type: add
+  id: 1338
+  time: '2026-05-04T19:16:18.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1338
 - author: DuckManZach
   changes:
   - message: Scream will always come second in the action bar
@@ -5201,10 +5208,88 @@ Entries:
   url: https://github.com/moff-station/moff-station-14/pull/1349
 - author: Centronias
   changes:
+  - message: Removing modules from modular HUDs while the HUD is equipped will no
+      longer cause the removed module's HUD effect to linger indefinitely.
+    type: fix
+  id: 1350
+  time: '2026-05-03T18:09:39.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1350
+- author: Centronias
+  changes:
   - message: Liquid gasses are no longer for sale from cargo.
     type: remove
   id: 1351
   time: '2026-04-30T16:26:34.000'
   url: https://github.com/moff-station/moff-station-14/pull/1351
+- author: SeaWyrm
+  changes:
+  - message: 'Ossuary: Removed externals access from evac airlocks'
+    type: fix
+  - message: 'Ossuary: Cryosleep units flipped to face the right way around'
+    type: fix
+  - message: 'Ossuary: Detective criminal records computer replaced with security
+      records computer'
+    type: fix
+  - message: 'Ossuary: Named fax machines'
+    type: fix
+  - message: 'Ossuary: Reworked and slightly enlarged Botany'
+    type: tweak
+  - message: 'Ossuary: Adjusted Atmos and put proper Atmos gear into the wall locker'
+    type: tweak
+  - message: 'Ossuary: Swapped the fence blocking the way into maints between Botany
+      and Sci with a gate'
+    type: tweak
+  - message: 'Ossuary: Unlocked service cubicle windoor'
+    type: tweak
+  - message: 'Ossuary: Adjusted Cargo front desk area to (hopefully) manage congestion
+      better'
+    type: tweak
+  - message: 'Ossuary: Moved training bomb crate to somewhere much harder for tiders
+      to get at'
+    type: tweak
+  - message: 'Ossuary: Made catacombs monolith much harder to unanchor and drag'
+    type: tweak
+  - message: 'Ossuary: Added instruments for the musician and Dramadrobe'
+    type: add
+  - message: 'Ossuary: Gave Salvage a recycler'
+    type: add
+  - message: 'Ossuary: Gave Security a cell recharger'
+    type: add
+  - message: 'Ossuary: Added the requested scissors. 61'
+    type: add
+  id: 1353
+  time: '2026-05-03T17:33:43.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1353
+- author: Centronias
+  changes:
+  - message: Borg ore bags can magnetize ore like their standard counterparts.
+    type: add
+  - message: Borg ore bags' magnetization is toggleable.
+    type: add
+  id: 1356
+  time: '2026-05-03T18:51:25.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1356
+- author: Centronias
+  changes:
+  - message: Salvage borgs' traversal modules now include a station map
+    type: add
+  - message: Mediborgs' rescue module now includes a mass scanner and station map
+    type: add
+  - message: Engiborgs' RCD module now includes a mass scanner and station map
+    type: add
+  - message: Cyborgs' GPSes have been combined with a mass scanner to reduce the number
+      of items they have to juggle. This affects the above modules as well as the
+      generic thruster module.
+    type: tweak
+  id: 1357
+  time: '2026-05-03T18:09:39.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1357
+- author: Kyle Tyo
+  changes:
+  - message: Borg vision should no longer "randomly" be occluded by the damage overlay.
+    type: fix
+  id: 1359
+  time: '2026-05-03T17:51:52.000'
+  url: https://github.com/moff-station/moff-station-14/pull/1359
 Name: Mofflog
 Order: -2
