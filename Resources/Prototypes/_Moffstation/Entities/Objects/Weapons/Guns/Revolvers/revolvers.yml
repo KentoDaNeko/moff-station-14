@@ -291,3 +291,22 @@
     ammoSlots: [ null, null, null, null, null, null ]
   - type: StealTarget
     stealGroup: OfficerHandgun
+
+- type: entity
+  name: RSR-83
+  parent: [BaseWeaponRevolver, BaseSecurityContraband]
+  id: WeaponRevolverrsr-83
+  description: A modified relic of an revolver, it is used to be carried by cosmonauts during the space age.
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Revolvers/rsr-83.rsi
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Revolvers/rsr-83.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+  - type: StealTarget
+    stealGroup: OfficerHandgun
