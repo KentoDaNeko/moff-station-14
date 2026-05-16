@@ -310,3 +310,41 @@
     ammoSlots: [ null, null, null, null, null, null ]
   - type: StealTarget
     stealGroup: OfficerHandgun
+
+- type: entity
+  name: Banagnum
+  parent: [BaseWeaponRevolver, BaseSecurityContraband]
+  id: WeaponRevolverbanagnum
+  description: A python revolver that is modified to be banana-like..?
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Revolvers/banagnum.rsi
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Revolvers/banagnum.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity
+  name: Crescent
+  parent: [BaseWeaponRevolver, BaseSecurityContraband]
+  id: WeaponRevolvercrescent
+  description: A modified inspector revolver to fit military standards.
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Revolvers/crescent.rsi
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Revolvers/crescent.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+  - type: StealTarget
+    stealGroup: OfficerHandgun
