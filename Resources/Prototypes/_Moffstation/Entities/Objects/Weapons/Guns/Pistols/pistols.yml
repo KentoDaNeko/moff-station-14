@@ -3815,3 +3815,373 @@
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
   - type: StealTarget
     stealGroup: OfficerHandgun
+
+- type: entity
+  name: Alter
+  parent: [BaseWeaponRevolver, BaseSecurityContraband]
+  id: WeaponPistolalter
+  description: A cheapest pistol on the market. As unreliable as it could get.
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/alter.rsi
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/alter.rsi
+  - type: Item
+    storedOffset: 0,-2
+  - type: RevolverAmmoProvider
+    capacity: 1
+    chambers: [ True ]
+    ammoSlots: [ null ]
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolkamber
+  name: Kamber
+  description: "Built with a sleek thin frame, It is balanced at most capabilities you see in a sidearm."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/kamber.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/kamber.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolstout
+  name: Stout
+  description: "Built for compactness and rugged construction offers robust firepower for a sidearm."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/stout.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/stout.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolsek13
+  name: Sek13
+  description: "Compact, sleek, but maybe not elegant. It still offers sustainable firepower for a sidearm."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/sek13.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/sek13.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolrazoredge
+  name: Razoredge
+  description: "Built for the limited time series of pistols, it compliments accuracy and recoil."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/razoredge.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/razoredge.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolrazorclaw
+  name: Razorclaw
+  description: "Built as a limited time series of sidearms, it offers sharp firepower and capabilities."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/razorclaw.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/razorclaw.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolstp39
+  name: STP39
+  description: "Built as an improvement to the STP33, it features a more sleeker barrel design."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/stp39.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/stp39.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolstp33
+  name: STP33
+  description: "Built by the USSP, it is designed for covert operations and inflitration."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/stp33.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/stp33.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolgamma
+  name: Gamma
+  description: "A foreign pistol design with the codename 'Gamma'."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/gamma.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/gamma.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolsigma
+  name: Sigma
+  description: "An mysterious pistol design with the codename 'Sigma.'"
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/sigma.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/sigma.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolsteelheart
+  name: Steelheart
+  description: "Made from reinforced steel, it is built to last through combat."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/steelheart.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/steelheart.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolvolkspistole
+  name: Volkspistole
+  description: "Built for the civilian party of the Germanic frontier."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/volkspistole.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/volkspistole.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistold210
+  name: D210
+  description: "Older model of the D200 series."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/d210.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/d210.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolpeacekeeper
+  name: Peacekeeper
+  description: "Built for Super Space Federation. Freedom never sleeps with this gun."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/peackeeper.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/peacekeeper.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
