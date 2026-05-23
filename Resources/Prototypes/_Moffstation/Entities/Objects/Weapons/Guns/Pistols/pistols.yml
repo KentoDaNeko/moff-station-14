@@ -3818,22 +3818,37 @@
 
 - type: entity
   name: Alter
-  parent: [BaseWeaponRevolver, BaseSecurityContraband]
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolalter
-  description: A cheapest pistol on the market. As unreliable as it could get.
+  description: The cheapest gun on the market. As reliable as it could get.
   components:
   - type: Sprite
     sprite: _Moffstation/Objects/Weapons/Guns/Pistols/alter.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: _Moffstation/Objects/Weapons/Guns/Pistols/alter.rsi
-  - type: Item
-    storedOffset: 0,-2
-  - type: RevolverAmmoProvider
-    capacity: 1
-    chambers: [ True ]
-    ammoSlots: [ null ]
-  - type: StealTarget
-    stealGroup: OfficerHandgun
+  - type: Gun
+    minAngle: 1
+    maxAngle: 20
+    angleIncrease: 8
+    angleDecay: 9
+    fireRate: 4
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: ItemSlots
+    slots:
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
 
 - type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
   parent: [BaseWeaponPistol, BaseSecurityContraband]
@@ -4166,7 +4181,7 @@
   description: "Built for Super Space Federation. Freedom never sleeps with this gun."
   components:
   - type: Sprite
-    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/peackeeper.rsi
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/peacekeeper.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
