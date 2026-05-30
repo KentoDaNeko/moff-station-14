@@ -80,7 +80,7 @@
   # sprite: Clothing/Uniforms/Jumpsuit/cargotech.rsi #Moffstation - End - Cargo Outfits
 
 - type: entity
-  parent: ClothingUniformBase # Moffstation
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSalvageSpecialist
   name: salvage specialist's jumpsuit
   description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
@@ -622,9 +622,9 @@
   description: 'What can brown do for you?'
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
+    sprite: _Moffstation/Clothing/Uniforms/Jumpsuit/qm.rsi # Moffstation
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
+    sprite: _Moffstation/Clothing/Uniforms/Jumpsuit/qm.rsi # Moffstation
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -644,9 +644,9 @@
   description: Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/qmformal.rsi
+      sprite: _Moffstation/Clothing/Uniforms/Jumpsuit/qmformal.rsi # Moffstation
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/qmformal.rsi
+      sprite: _Moffstation/Clothing/Uniforms/Jumpsuit/qmformal.rsi # Moffstation
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
