@@ -4362,3 +4362,32 @@
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
   - type: StealTarget
     stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolermk60
+  name: ERMk60
+  description: "A handgun with the model 'ERMk-60' inscribed on the side.\nFeeds from .35 pistol magazines."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/ermk60.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/ermk60.rsi
+  - type: DetailExaminable
+    content: An unusual and highly experimental design of the Mk58 from Sunshade Armories, the ERMk-60 intends to improve beyond excellence with a reinforced, heavier furniture. It also features an electronic sight and a laser pointer for pinpoint accuracy. You would question how a security officer managed to get a hold of this sidearm.
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
