@@ -1,7 +1,7 @@
 ﻿- type: entity
   name: basic slime
   id: BaseMobAdultSlimes
-  parent: [ BaseMobSlimes, SimpleMobBase, MobCombat ]
+  parent: [ BaseMobSlimes, SimpleMobBase, MobCombat, BaseSlicingRefinable ]
   abstract: true
   description: It looks so much like jelly. I wonder what it tastes like?
   components:
@@ -36,9 +36,8 @@
     tags:
     - FootstepSound
     - DoorBumpOpener
-  - type: Butcherable
-    butcheringType: Knife
-    spawned:
+  - type: ToolRefinable
+    refineResult:
     - id: FoodMeatSlime
       amount: 2
   - type: Respirator
@@ -161,7 +160,7 @@
   components:
     - type: NpcFactionMember
       factions:
-        - SimpleHostile
+        - FeralSlime # Moffstation - Geras
     - type: GhostRole
       description: ghost-role-information-angry-slimes-description
       rules: ghost-role-information-freeagent-rules # Moffstation - Free agent vent critters
@@ -201,7 +200,7 @@
   components:
     - type: NpcFactionMember
       factions:
-        - SimpleHostile
+        - FeralSlime # Moffstation - Geras
     - type: GhostRole
       description: ghost-role-information-angry-slimes-description
       rules: ghost-role-information-freeagent-rules # Moffstation - Free agent vent critters
@@ -240,7 +239,7 @@
   components:
     - type: NpcFactionMember
       factions:
-        - SimpleHostile
+        - FeralSlime # Moffstation - Geras
     - type: GhostRole
       description: ghost-role-information-angry-slimes-description
       rules: ghost-role-information-freeagent-rules # Moffstation - Free agent vent critters
