@@ -4391,3 +4391,107 @@
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
   - type: StealTarget
     stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolbaikal
+  name: Baikal
+  description: "Adorned with a silver frame and olive grips, This sidearm is built for fashion and precision."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/baikal.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/baikal.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolconstable
+  name: Constable
+  description: "Designed for law enforcement, has a built in flashlight and glowing sights for night time use."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/constable.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/constable.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity # Used by detectives and mercenaries as an alternative to the Inspector revolver.
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: WeaponPistolbt90
+  name: BT90
+  description: "This is the first sidearm to be built with an exposed slide in this sector. Reliable at most."
+  components:
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/bt90.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/bt90.rsi
+  - type: Item
+    storedOffset: 0,-4
+  - type: Gun
+    fireRate: 5
+    fireOnLandChance: 0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity
+  parent: [ BaseWeaponShotgun, BaseMajorContraband ]
+  id: WeaponPistolvulcan
+  name: Vulcan
+  description: "A prototype tube-fed lever-action pistol design, redesigned to prevent jamming.\nLoads eight rounds of .45 magnum."
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 8
+    proto: CartridgeMagnum
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg # Could use a less... plastic-y sound with no pumping noise.
+    whitelist:
+      tags:
+      - CartridgeMagnum
+  - type: Clothing
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/vulcan.rsi
+  - type: Gun
+    fireRate: 5
+    soundGunshot:
+      path: /Audio/_Moffstation/Weapons/Guns/Gunshots/heavygunshot.ogg # Sound found by AugustSun :3
+  - type: Sprite
+    sprite: _Moffstation/Objects/Weapons/Guns/Pistols/vulcan.rsi
