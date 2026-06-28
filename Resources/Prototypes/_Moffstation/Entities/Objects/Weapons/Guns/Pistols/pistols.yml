@@ -4490,7 +4490,7 @@
   - type: Clothing
     sprite: _Moffstation/Objects/Weapons/Guns/Pistols/vulcan.rsi
   - type: Gun
-    fireRate: 5
+    fireRate: 3.5
     soundGunshot:
       path: /Audio/_Moffstation/Weapons/Guns/Gunshots/heavygunshot.ogg # Sound found by AugustSun :3
   - type: Sprite
